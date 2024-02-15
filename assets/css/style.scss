@@ -1442,6 +1442,9 @@ footer {
         ul {
           display: flex;
           gap: 50px;
+          @include sm-down-device() {
+            gap: 20px;
+          }
 
           li {
             a {
@@ -1617,6 +1620,10 @@ footer {
     margin-bottom: 20px;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    @include md-down-device() {
+      justify-content: center;
+    }
 
     .copyright-area {
       align-items: center;
@@ -1645,8 +1652,11 @@ footer {
 
         }
       }
+      @include md-down-device() {
+        margin-bottom: 10px;
+      }
     }
-    .social-area{
+    .right-area{
       display: flex;
       gap: 8px;
       p{
