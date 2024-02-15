@@ -1,2 +1,2 @@
 # Poetic-2
-Author : Khadija Tasnim
+Author : Khadija Tasnim khushi
